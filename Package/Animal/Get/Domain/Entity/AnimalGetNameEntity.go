@@ -4,6 +4,7 @@ type AnimalGetNameEntity struct {
 	Name string
 }
 
+// NewAnimalGetNameEntity AnimalGetNameEntityのfactoryメソッド（constructorみたいなもの）
 func NewAnimalGetNameEntity(name string) AnimalGetNameEntity {
 	return AnimalGetNameEntity{Name: name}
 }
