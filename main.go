@@ -1,14 +1,14 @@
 package main
 
 import (
-	animalAdaptor "packageByFeature/Package/Animal/Get/Adaptor"
-
 	"github.com/gin-gonic/gin"
+	"packageByFeature/package/animal"
 )
 
 func main() {
 	r := gin.Default()
-	r.GET("/animal/name", animalAdaptor.GetName)
+
+	animal.ApplyRoutes(r)
 
 	err := r.Run()
 	if err != nil {
