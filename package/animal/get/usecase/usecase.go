@@ -1,7 +1,7 @@
 package usecase
 
 import (
-	"packageByFeature/package/animal/get/repository"
+	"pbf/package/animal/get/repository"
 )
 
 type UseCase struct {

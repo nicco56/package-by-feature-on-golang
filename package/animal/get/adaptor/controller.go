@@ -1,7 +1,7 @@
 package adaptor
 
 import (
-	"packageByFeature/package/animal/get/usecase"
+	"pbf/package/animal/get/usecase"
 
 	"github.com/gin-gonic/gin"
 )

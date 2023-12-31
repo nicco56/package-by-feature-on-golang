@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"packageByFeature/package/animal/get/entity"
+	"pbf/package/animal/get/entity"
 )
 
 type Query struct{}

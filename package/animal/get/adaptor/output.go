@@ -2,7 +2,7 @@ package adaptor
 
 import (
 	"github.com/gin-gonic/gin"
-	"packageByFeature/package/animal/get/entity"
+	"pbf/package/animal/get/entity"
 )
 
 type output struct {

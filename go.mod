@@ -1,4 +1,4 @@
-module packageByFeature
+module pbf
 
 go 1.20
 
